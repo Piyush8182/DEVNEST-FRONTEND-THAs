@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+}
+::selection {
+  color: hsl(133, 100%, 50%);
+  background-color: black;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+      45deg,
+      transparent 0%,
+      transparent 27%,
+      rgba(214, 214, 214, 0.06) 27%,
+      rgba(214, 214, 214, 0.06) 38%,
+      transparent 38%,
+      transparent 100%
+    ),
+    linear-gradient(
+      45deg,
+      transparent 0%,
+      transparent 39%,
+      rgba(214, 214, 214, 0.06) 39%,
+      rgba(214, 214, 214, 0.06) 68%,
+      transparent 68%,
+      transparent 100%
+    ),
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 74%,
+      rgba(214, 214, 214, 0.06) 74%,
+      rgba(214, 214, 214, 0.06) 79%,
+      transparent 79%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+  gap: 2rem;
+}
+button {
+  margin-top: 2rem;
+  font-size: 2em;
+  border-radius: 0.6em;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.4em 1em;
+  background: transparent;
+  color: aliceblue;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.quotes {
+  display: flex;
+  height: auto;
+  padding: 2rem;
+  width: 60%;
+  color: white;
+  font-size: 2em;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
