@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: palevioletred;
+}
+
+.container {
+  height: fit-content;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  box-shadow: 20px 20px 60px rgb(189, 13, 72), -20px -20px 60px rgb(189, 25, 79);
+}
